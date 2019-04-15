@@ -30,8 +30,8 @@ export default {
   @import '~styles/varibles.styl'
   .header
     display :flex
-    line-height .86rem
-    height :.86rem
+    line-height $headerHeight
+    height :$headerHeight
     background :$bgColor
     color :#fff
     .header-left
